@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    string text ="datastructure ";
+    string pattern="data";
+    size_t position= text.find(pattern);
+    
+    if(position!= string::npos){
+        cout<<"pattern found at index:"<<position<<endl;
+    }else{
+        cout<<"pattern not found."<<endl;
+    }
+    return 0;
+    }
